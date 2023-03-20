@@ -1,170 +1,50 @@
 [[Extrae]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0c292b29191b663d51f0ea47b7b0578aac5f8f47"
+cuda = "10.2"
+git-tree-sha1 = "178e82591832f0b1ddaa45e88336e40426f74c8d"
 libc = "glibc"
 os = "linux"
 
     [[Extrae.download]]
-    sha256 = "274daf70d9befeb9c5007428cabd9bfb1f3bec3b8e6b489324bd13f20a939ced"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "d05bf1af1fcfece7ce166ae91a1c6b05febe82bc2c2e9d50669b9cc929784670"
+    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.3+0/Extrae.v4.0.3.x86_64-linux-gnu-cuda+10.2.tar.gz"
 [[Extrae]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "1da72f134997c182344d72d771785c053088e8cb"
+cuda = "11.0"
+git-tree-sha1 = "f601fd7b8c03b417744fd2ad0675996eda29fd1d"
 libc = "glibc"
 os = "linux"
 
     [[Extrae.download]]
-    sha256 = "ab75e34c29735ef01f46f20876f0b8b3e2831b12d64cf6c89541a559c5163fce"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "51a9e4dabe50fdd8269cc99fc5e86e99cd18c05d1094b666e8cc7a7e00d060a3"
+    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.3+0/Extrae.v4.0.3.x86_64-linux-gnu-cuda+11.0.tar.gz"
+[[Extrae]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "1b24453b5fac00cb060a40427411ccf10d95d813"
+libc = "glibc"
+os = "linux"
+
+    [[Extrae.download]]
+    sha256 = "2f4cbda640918ed65771b6716fe74c20f0403dd32281b56887eb71eac6b34916"
+    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.3+0/Extrae.v4.0.3.x86_64-linux-gnu-cuda+none.tar.gz"
 [[Extrae]]
 arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "dce1fe52268f4a88af039d904ab09af5e4be3ee3"
+cuda = "none"
+git-tree-sha1 = "83df439f601bec7fe835dc9fd39764d7d3a47009"
 libc = "glibc"
 os = "linux"
 
     [[Extrae.download]]
-    sha256 = "d1ccc6cd5bc7b8312ea8979bf09e32ce13d8d89c8685bcaa24118ecc2dd459f6"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Extrae]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "231b7637b338f828f80c0a88312bc4caeea005dd"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "bf81884a84bbf29297be93e621af4ef34ba880371c9d661be959dea147713699"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "dd159e202ebb5e724143b78057f1a5df6c2759e22d8de045776f3ee2560f7b72"
+    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.3+0/Extrae.v4.0.3.powerpc64le-linux-gnu-cuda+none.tar.gz"
 [[Extrae]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6721d5ab1657801190f69de30128771aa8c84065"
+cuda = "none"
+git-tree-sha1 = "7855ff878acd55fb372fec67f6250c1ce7220b15"
 libc = "glibc"
 os = "linux"
 
     [[Extrae.download]]
-    sha256 = "396d45fa571f213a6b6ec2f48c9b187148099730222233c743f577de5c90b92f"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx03.tar.gz"
-[[Extrae]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8c464092ab2699f5aeca0b70ea80fb547b4bb071"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "c8a166f46e6cd563f735b9608da62c01411dbb509e6d8d42d280d084bb2c62bd"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx11.tar.gz"
-[[Extrae]]
-arch = "x86_64"
-cuda = "10.2"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "91742a32f6833b4d9dd94f42192e1059ef786c20"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "21a3ab36021e6d9c972da828110feb37b36a0c492bbd770613145bfdc498c476"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx03-cuda+10.2.tar.gz"
-[[Extrae]]
-arch = "x86_64"
-cuda = "11.0"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5d0cf7767e2a1a2c1bbc46afe9e512ee142374e6"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "ab885b3b88ea7760a24b0d0a92850ae054124d3746b6d61f7e9150ad9ec98fc9"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx03-cuda+11.0.tar.gz"
-[[Extrae]]
-arch = "x86_64"
-cuda = "10.2"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2e2b1e6707cacfc39f7d22b80aed1b2f1288dbcb"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "98204bd861aa32c6673df838d47a44345ad8bb3b7e9421f5c95725c2939f626a"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx11-cuda+10.2.tar.gz"
-[[Extrae]]
-arch = "x86_64"
-cuda = "11.0"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "02e75a506a709a5435ebc8ece834596faf9eadd9"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "8763eeaf2fc3166676033c166efd02d763b396b14eaf6aa579c52f8510045c3c"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.x86_64-linux-gnu-cxx11-cuda+11.0.tar.gz"
-[[Extrae]]
-arch = "powerpc64le"
-cuda = "11.0"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6a8c225653a1ee7fd913b6ab6c01a0cd7c339c1e"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "ee312d060cb932e1af3e8d9ae0c4c746ca214991a61d1a0c5cc99ff7e513cd50"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.powerpc64le-linux-gnu-cxx03-cuda+11.0.tar.gz"
-[[Extrae]]
-arch = "powerpc64le"
-cuda = "11.0"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7aa0dfbfcdbf820d2b1a0c839b91f3855fbbf6a9"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "8c5c01ed36720152bc3f4b58497a2353973ad95676207e3d5d8734274a9dee82"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.powerpc64le-linux-gnu-cxx11-cuda+11.0.tar.gz"
-[[Extrae]]
-arch = "aarch64"
-cuda = "10.2"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "bb515867d6d55b835f3822d2a7ea847fcb058c93"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "9676ddc363e69d432116b774cffa427eac29de401253576503d98d5a38cbf9e5"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx03-cuda+10.2.tar.gz"
-[[Extrae]]
-arch = "aarch64"
-cuda = "11.0"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ba7d730e130a456d25615fb8ac765953eea774f0"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "d992158ea9bc3b4b8968f314d0b527aedc34ef8e7c8daff491b3c3ae0ccedfc2"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx03-cuda+11.0.tar.gz"
-[[Extrae]]
-arch = "aarch64"
-cuda = "10.2"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "acb97280e90b072b444b1635dc71d87eec28b36a"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "10f20d85155c187467e8904c4407b1092559290fc497fd0760912115b0a91620"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx11-cuda+10.2.tar.gz"
-[[Extrae]]
-arch = "aarch64"
-cuda = "11.0"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c0406ad0613b0b7dfe795957edf7dc872ff5f71e"
-libc = "glibc"
-os = "linux"
-
-    [[Extrae.download]]
-    sha256 = "b3e20a6fdf4788add2f670c2009eb9a89e81215d965b94f59211cd2b3e5687c2"
-    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.2+0/Extrae.v4.0.2.aarch64-linux-gnu-cxx11-cuda+11.0.tar.gz"
+    sha256 = "1cb26d13c7b88f484291c678fa3b05d46852e7bdcb5aa8b988e308c946e0e430"
+    url = "https://github.com/JuliaBinaryWrappers/Extrae_jll.jl/releases/download/Extrae-v4.0.3+0/Extrae.v4.0.3.aarch64-linux-gnu-cuda+none.tar.gz"
