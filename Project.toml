@@ -1,6 +1,6 @@
 name = "Extrae_jll"
 uuid = "2b2c4be0-e38c-5918-b8b4-9a308845a1e9"
-version = "4.0.3+0"
+version = "4.1.2+0"
 
 [deps]
 PAPI_jll = "062e04e5-c3d3-5549-ab66-579a72a7bc1b"
@@ -15,3 +15,6 @@ Binutils_jll = "489e263e-5428-50b0-a723-147a141b401e"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+Libdl = "1"
+Artifacts = "1"
+Binutils_jll = "~2.39"
